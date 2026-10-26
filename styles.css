@@ -18,7 +18,7 @@
   --warning-soft: #f1e7bd;
   --danger: #a12a2a;
   --danger-soft: #ead0d0;
-  --shell: min(1240px, calc(100vw - 48px));
+  --shell: min(1240px, calc(100vw - 80px));
   --chart-height: 360px;
 }
 
