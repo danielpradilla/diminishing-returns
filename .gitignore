@@ -1,0 +1,6 @@
+.DS_Store
+.commandcode/
+sources/*.pdf
+sources/*.xlsx
+sources/*.csv
+sources/__pycache__/

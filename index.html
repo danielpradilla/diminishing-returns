@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Gallery of Diminishing Returns</title>
+  <meta name="description" content="Ten research-backed examples of diminishing returns, with charts rebuilt from published data, coefficients, equations and digitized figures.">
+  <link rel="stylesheet" href="styles.css?v=10">
+</head>
+<body>
+  <a class="skip-link" href="#gallery">Skip to the gallery</a>
+
+  <header class="dp-navbar">
+    <a class="dp-navbar-brand" href="/projects/">Daniel Pradilla</a>
+    <nav class="dp-navbar-links" aria-label="Site and project navigation">
+      <a href="#gallery" aria-current="page">Gallery</a>
+      <a href="#method">Method</a>
+      <a href="#provenance">Sources</a>
+      <a href="/blog/">Blog</a>
+      <a href="https://github.com/danielpradilla/diminishing-returns">GitHub</a>
+    </nav>
+    <details class="dp-navbar-menu">
+      <summary aria-label="Menu">&#9776;</summary>
+      <nav aria-label="Site and project navigation menu">
+        <a href="#gallery" aria-current="page">Gallery</a>
+        <a href="#method">Method</a>
+        <a href="#provenance">Sources</a>
+        <a href="/blog/">Blog</a>
+        <a href="https://github.com/danielpradilla/diminishing-returns">GitHub</a>
+      </nav>
+    </details>
+  </header>
+
+  <main id="top">
+    <section class="dp-project-header" aria-labelledby="page-title">
+      <p class="eyebrow">A gallery of ten studies</p>
+      <h1 id="page-title">A Gallery of Diminishing Returns</h1>
+      <p class="tagline">When is good good enough?</p>
+    </section>
+    <div class="intro-block">
+      <p class="intro">
+        More can help. But the next hour, dollar, or unit of effort often buys less than the last.
+        These studies show where gains shrink, where they flatten, and why deciding when to stop
+        depends on what you value.
+      </p>
+      <p class="concept-strip" role="group" aria-label="Four concepts used in the gallery">
+        <a href="#concepts">Diminishing gains</a>
+        <span aria-hidden="true">·</span>
+        <a href="#concepts">Plateaus</a>
+        <span aria-hidden="true">·</span>
+        <a href="#concepts">Reversals</a>
+        <span aria-hidden="true">·</span>
+        <a href="#concepts">Cost-dependent optima</a>
+      </p>
+      <p class="masthead-meta">Ten entries · 1967–2025 · Charts rebuilt from data, coefficients, equations and published figures</p>
+    </div>
+
+    <noscript>
+      <p class="noscript-note">This gallery draws its charts with JavaScript. Enable JavaScript to see the ten entries. The source records, paper links and reconstruction notes are listed in the page source and in the method section.</p>
+    </noscript>
+
+    <section id="gallery" class="gallery" aria-label="The ten entries"></section>
+
+    <section id="method" class="method" aria-labelledby="method-title">
+      <div class="method-head">
+        <p class="eyebrow">Method</p>
+        <h2 id="method-title">How to read the charts</h2>
+        <p>
+          Each chart answers one question. The values come from a published dataset, a published
+          equation or fitted coefficient, or a figure that has been digitized. The label on every
+          source record says which. Nothing here is a screenshot, and no data points, confidence
+          bands or optimal thresholds have been invented.
+        </p>
+      </div>
+
+      <div class="method-grid">
+        <div class="method-block" id="concepts">
+          <h3>Four different claims</h3>
+          <dl class="definition-list">
+            <dt>Diminishing gains</dt>
+            <dd>The outcome keeps improving, but each equal increment of input produces less improvement.</dd>
+            <dt>Plateau</dt>
+            <dd>Additional improvement is small or hard to distinguish from uncertainty.</dd>
+            <dt>Reversal</dt>
+            <dd>Additional input worsens the measured outcome.</dd>
+            <dt>Cost-dependent optimum</dt>
+            <dd>The stopping point depends on prices, costs, goals or alternatives, not on the curve alone.</dd>
+          </dl>
+        </div>
+
+        <div class="method-block">
+          <h3>Reconstruction labels</h3>
+          <dl class="definition-list">
+            <dt>Published data</dt>
+            <dd>Values come from the authors' data file or published table. Any transformation is stated.</dd>
+            <dt>Published coefficients / equation</dt>
+            <dd>The curve is computed from a fitted model or formula printed in the paper.</dd>
+            <dt>Digitized figure</dt>
+            <dd>Coordinates were read from the published figure at high resolution. These values are approximate, and the source record gives the reading error.</dd>
+          </dl>
+        </div>
+
+        <div class="method-block">
+          <h3>A bend is not an optimum</h3>
+          <p>
+            A curve that visibly flattens does not, by itself, establish where anyone should stop.
+            An optimum requires a comparison of marginal gains with marginal costs, and those costs
+            differ across people and settings. For several entries the honest answer is
+            <em>no single stopping point established</em>.
+          </p>
+          <p>
+            Research productivity over time, theoretical bottlenecks and experimental comparisons
+            are related examples, not interchangeable estimates of one marginal production function.
+            Each is explained on its own terms.
+          </p>
+        </div>
+
+        <div class="method-block">
+          <h3>Uncertainty and limits</h3>
+          <p>
+            Confidence intervals or standard errors are preserved where the source reports them.
+            Digitized bands are approximate, and overlap in the original figure can make one band's
+            limits uncertain; this is stated in the entry. Where the original does not report
+            uncertainty, none is drawn.
+          </p>
+          <p>
+            The page loads only local files. Publisher sites are not contacted at runtime. Sources
+            were checked on 26 October 2026, and the version used for each figure is recorded below.
+          </p>
+        </div>
+      </div>
+
+      <div class="provenance" id="provenance">
+        <div class="provenance-head">
+          <h3>Source and reconstruction record</h3>
+          <p>The ten entries in page order. “Approximate” marks digitized values.</p>
+        </div>
+        <div class="table-shell" tabindex="0" role="region" aria-label="Source and reconstruction record">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Entry</th>
+                <th scope="col">Source version</th>
+                <th scope="col">Figure / table</th>
+                <th scope="col">Reconstruction</th>
+              </tr>
+            </thead>
+            <tbody id="provenance-rows"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p class="footer-note">A Gallery of Diminishing Returns · Static page · Sources checked 26 October 2026</p>
+    <div class="dp-footer">
+      <span>© 2026 Daniel Pradilla</span>
+      <nav aria-label="Footer navigation">
+        <a href="/projects/">Projects</a>
+        <a href="/blog/">Blog</a>
+        <a href="https://github.com/danielpradilla/diminishing-returns">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="entry-dialog" class="entry-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-scroll" id="dialog-content"></div>
+  </dialog>
+
+  <script type="module" src="js/app.js?v=9"></script>
+</body>
+</html>
