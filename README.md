@@ -17,6 +17,13 @@ height, so chart baselines and the per-card author/footer row stay aligned.
 The page is static HTML, CSS and JavaScript. It loads no external fonts, analytics or publisher
 requests at runtime.
 
+## Published
+
+- Gallery: <https://www.danielpradilla.info/projects/diminishing-returns/>
+- Source: <https://github.com/danielpradilla/diminishing-returns>
+- Catalog entry: maintained in
+  <https://github.com/danielpradilla/danielpradilla-projects>
+
 ## Preview
 
 From this directory:
@@ -27,10 +34,12 @@ python3 -m http.server 8137
 
 Then open <http://127.0.0.1:8137/>.
 
-A preview server is also running at <http://127.0.0.1:8154/> while this handoff is being reviewed.
 The page must be served over HTTP rather than opened as a `file://` path because it uses ES modules.
 
-Deployment is not included. No public deployment was requested or performed.
+The static app is deployed from this directory to
+`~/danielpradilla.info/projects/diminishing-returns/` on DreamHost. Only `index.html`, `styles.css`,
+`js/` and `data/` are published. The catalog card and screenshot live in the separate
+`danielpradilla-projects` repository.
 
 ## Files
 
