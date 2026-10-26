@@ -8,8 +8,8 @@ setting, limitation, source record, data table and CSV.
 The page chrome follows the compact project-page site bar from `danielpradilla-app-style`: the
 uppercase **Daniel Pradilla** wordmark links to `/projects/`, followed by the project tabs, Blog and
 GitHub. The footer uses the standard Projects / Blog / GitHub row. Typography follows the Daniel
-Pradilla project chrome: system sans, a 1rem/400 uppercase wordmark and compact 0.82rem/300
-navigation links inside the 53px site bar.
+Pradilla project chrome: system sans, a 0.8rem/400 uppercase wordmark and 0.8rem/300 navigation
+links, matching the compact project-page site bar.
 
 Every card uses the same 360px chart area. On desktop the two-column grid makes all cards the same
 height, so chart baselines and the per-card author/footer row stay aligned.
