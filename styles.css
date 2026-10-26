@@ -18,7 +18,7 @@
   --warning-soft: #f1e7bd;
   --danger: #a12a2a;
   --danger-soft: #ead0d0;
-  --shell: min(1480px, calc(100vw - 34px));
+  --shell: min(1240px, calc(100vw - 48px));
   --chart-height: 360px;
 }
 
@@ -163,12 +163,12 @@ summary:focus-visible {
   justify-content: space-between;
   gap: 18px;
   border-bottom: 1px solid var(--rule);
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .dp-navbar-brand {
   color: var(--ink);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
@@ -185,9 +185,9 @@ summary:focus-visible {
 
 .dp-navbar-links a,
 .dp-navbar-menu nav a {
-  padding: 4px 13px;
+  padding: 4px 10px;
   color: inherit;
-  font-size: 1.25rem;
+  font-size: 0.82rem;
   font-weight: 300;
   text-decoration: none;
   text-underline-offset: 0.18em;
@@ -859,7 +859,7 @@ th.num {
   gap: 10px 18px;
   padding: 10px 0;
   color: var(--secondary);
-  font-size: 1rem;
+  font-size: 0.8rem;
   border-top: 1px solid var(--rule);
 }
 
@@ -1089,7 +1089,7 @@ html.dialog-open {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 760px) {
   .dp-navbar .dp-navbar-links {
     display: none;
   }
@@ -1135,7 +1135,7 @@ html.dialog-open {
 
 @media (max-width: 620px) {
   :root {
-    --shell: calc(100vw - 20px);
+    --shell: calc(100vw - 32px);
   }
 
   .concept-strip {
